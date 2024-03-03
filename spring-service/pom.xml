@@ -85,8 +85,8 @@
                     <from>
                         <image>openjdk:17-alpine</image>
                         <auth>
-                            <username>claydocker</username>
-                            <password>dckr_pat_PPL7BOLgvNJBGYhgSsE1pnbMj0o</password>
+                            <username>youraccount</username>
+                            <password>yourpwd</password>
                         </auth>
                     </from>
                     <container>
@@ -101,8 +101,8 @@
                             <tag>latest</tag>
                         </tags>
                         <auth>
-                            <username>claydocker</username>
-                            <password>dckr_pat_PPL7BOLgvNJBGYhgSsE1pnbMj0o</password>
+                            <username>youraccount</username>
+                            <password>yourpwd</password>
                         </auth>
                     </to>
                 </configuration>
