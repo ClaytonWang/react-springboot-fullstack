@@ -18,7 +18,7 @@ cd spring-service
 mvn clean package
 java -jar target/backend-0.0.1-SNAPSHOT.jar
 ```
-when development this project make sure that `mvm package` will automatically package docker image and publish the image to you docker hub.
+when development this project make sure that `mvm jib:build` will automatically package docker image and publish the image to you docker hub.
 However, you can package docker image use `Dockerfile` by manual.
 
 OR
