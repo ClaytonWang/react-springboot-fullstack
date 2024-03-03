@@ -1,0 +1,42 @@
+version: '3'
+services:
+  mysql:
+    restart: always
+    image: mysql:5.7.35
+    container_name: mysql
+    networks:
+      - proxy
+    volumes:
+      - /apps/mysql/datadir:/var/lib/mysql
+      - /apps/mysql/conf/my.cnf:/etc/mysql/my.cnf
+      # 数据库还原目录 可将需要还原的sql文件放在这里
+      - /apps/mysql/source:/docker-entrypoint-initdb.d
+    environment:
+      - "MYSQL_ROOT_PASSWORD=react-spring-demo"
+      - "MYSQL_DATABASE=admin"
+      - "TZ=Asia/Shanghai"
+    ports:
+      - 3306:3306
+  service:
+    image: claydocker/spring-service:latest
+    restart: on-failure
+    container_name: service
+    networks:
+      - proxy
+    depends_on:
+      - mysql
+  server-web:
+    image: claydocker/react-frontend:latest
+    restart: on-failure
+    container_name: server-web
+    environment:
+      - VIRTUAL_HOST=demo.dw3c.com
+      - LETSENCRYPT_HOST=demo.dw3c.com
+      - LETSENCRYPT_EMAIL=lovejunlic@qq.com
+    networks:
+      - proxy
+    depends_on:
+      - mysql
+networks:
+  proxy:
+    external: true
