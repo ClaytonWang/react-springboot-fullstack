@@ -13,7 +13,7 @@ services:
       - /apps/mysql/source:/docker-entrypoint-initdb.d
     environment:
       - "MYSQL_ROOT_PASSWORD=react-spring-demo"
-      - "MYSQL_DATABASE=admin"
+      - "MYSQL_DATABASE=my_demo"
       - "TZ=Asia/Shanghai"
     ports:
       - 3306:3306

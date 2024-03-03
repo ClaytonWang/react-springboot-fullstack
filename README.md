@@ -1,0 +1,62 @@
+# React Springboot Fullstack
+
+This is a fullstack project using React and Springboot. It is a simple CRUD application that allows users to create, read, update, and delete books.
+
+## Prerequisites
+
+Before you begin, ensure you have met the following requirements:
+
+* You have installed Node.js and npm
+* You have installed Java and Maven
+* You have installed MySQL
+
+
+## Installing
+
+To install this project, follow these steps:
+
+```
+git clone https://github.com/clayton-ho/react-springboot-fullstack.git
+cd react-springboot-fullstack
+```
+
+
+## Running the backend
+
+To run the app, follow these readme documents:
+
+* [starting the backend](spring-service/README.md)
+
+
+## Running the frontend
+
+To run the frontend, follow these readme documents:
+
+* [starting the frontend](react-frontend/README.md)
+
+
+## Using the app
+
+To use the app, follow these steps:
+
+1. Open your browser and go to http://localhost:9000/
+2. Click on "Food Trucks" to view the list of food trucks
+3. Click on "Search" to filter the list of food trucks
+4. Click on "Page number" to paginate the list of food trucks
+
+
+## Built With
+
+* [React](https://reactjs.org/) - A JavaScript library for building user interfaces
+* [Springboot](https://spring.io/projects/spring-boot) - A Java-based framework for building web applications
+* [MySQL](https://www.mysql.com/) - A relational database management system
+
+
+## Authors
+
+* **<NAME>** - *Initial work* - [clayton-ho](https://github.com/clayton-ho)
+
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
