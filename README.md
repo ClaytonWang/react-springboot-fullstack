@@ -1,14 +1,14 @@
 # React Springboot Fullstack
 
-This is a fullstack project using React and Springboot. It is a simple CRUD application that allows users to create, read, update, and delete books.
+This is a fullstack project using React and Springboot. It is a simple application that allows users to read food trucks from a database and search for specific food trucks. The project uses MySQL as the database.
 
 ## Prerequisites
 
 Before you begin, ensure you have met the following requirements:
 
-* You have installed Node.js and npm
-* You have installed Java and Maven
-* You have installed MySQL
+* You have installed Node.js v18 and npm
+* You have installed Java v17 and Maven
+* You have installed MySQL 5.7 or later
 
 
 ## Installing
@@ -59,4 +59,4 @@ To use the app, follow these steps:
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License - see the [LICENSE](LICENSE.md) file for details
