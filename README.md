@@ -54,7 +54,7 @@ To use the app, follow these steps:
 
 ## Authors
 
-* **<NAME>** - *Initial work* - [clayton-ho](https://github.com/clayton-ho)
+* **<NAME>** - *Initial work* - [Clayton Wang](https://github.com/ClaytonWang)
 
 
 ## License
