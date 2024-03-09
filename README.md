@@ -1,6 +1,6 @@
 # React Springboot Fullstack
 
-This is a fullstack project using React and Springboot. It is a simple application that allows users to read food trucks from a database and search for specific food trucks. The project uses MySQL as the database.
+This is a fullstack project using React18 and Springboot3. It is a simple application that allows users to read food trucks from a database and search for specific food trucks by name. The project uses MySQL as the database.
 
 ## Prerequisites
 
