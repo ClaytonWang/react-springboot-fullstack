@@ -3,4 +3,4 @@
 *.js linguist-language=JavaScript
 *.java linguist-language=Java
 *.py linguist-language=Python
-*.sql linguist-language=SQL
+*.sql linguist-language=TSQL
