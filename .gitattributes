@@ -1,6 +1,7 @@
 *.html linguist-language=HTML
 *.css linguist-language=CSS
 *.js linguist-language=JavaScript
+*.sql linguist-language=JavaScript
 *.java linguist-language=Java
 *.py linguist-language=Python
 *.jsx linguist-language=React
